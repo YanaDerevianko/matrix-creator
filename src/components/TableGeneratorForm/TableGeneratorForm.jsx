@@ -8,11 +8,11 @@ import { OptionsButton } from "../OptionsButton/OptionsButton";
 const inputsArray = [
   {
     action: matrixActions.setRows,
-    text: "Row Number",
+    text: "Rows: ",
   },
   {
     action: matrixActions.setColumns,
-    text: "Column Number",
+    text: "Columns: ",
   },
 ];
 

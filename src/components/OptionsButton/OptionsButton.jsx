@@ -1,9 +1,10 @@
 import React from "react";
+import {Button} from './OptionsButton.styled';
 
 export const OptionsButton = ({ handleClick, name }) => {
   return (
-    <button onClick={handleClick}>
+    <Button onClick={handleClick}>
       {name}
-    </button>
+    </Button>
   );
 };
