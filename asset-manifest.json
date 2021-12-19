@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/matrix-creator/static/css/main.51ee712d.chunk.css",
+    "main.js": "/matrix-creator/static/js/main.62ba0ac8.chunk.js",
+    "main.js.map": "/matrix-creator/static/js/main.62ba0ac8.chunk.js.map",
+    "runtime-main.js": "/matrix-creator/static/js/runtime-main.923f2b7b.js",
+    "runtime-main.js.map": "/matrix-creator/static/js/runtime-main.923f2b7b.js.map",
+    "static/js/2.bebd5635.chunk.js": "/matrix-creator/static/js/2.bebd5635.chunk.js",
+    "static/js/2.bebd5635.chunk.js.map": "/matrix-creator/static/js/2.bebd5635.chunk.js.map",
+    "index.html": "/matrix-creator/index.html",
+    "static/css/main.51ee712d.chunk.css.map": "/matrix-creator/static/css/main.51ee712d.chunk.css.map",
+    "static/js/2.bebd5635.chunk.js.LICENSE.txt": "/matrix-creator/static/js/2.bebd5635.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.923f2b7b.js",
+    "static/js/2.bebd5635.chunk.js",
+    "static/css/main.51ee712d.chunk.css",
+    "static/js/main.62ba0ac8.chunk.js"
+  ]
+}
