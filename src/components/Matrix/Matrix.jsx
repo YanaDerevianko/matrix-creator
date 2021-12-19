@@ -7,7 +7,8 @@ import AverageValueOfColumn from "../AverageValueOfColumn/AverageValueOfColumn";
 import MatrixCell from "../MatrixCell/MatrixCell";
 import TotalSumInRow from "../TotalSumInRow/TotalSumInRow";
 import store from "../../redux/store";
-import {MatrixTable} from './Matrix.styled'
+import {MatrixTable} from './Matrix.styled';
+
 
 const randomNumber = () => ({
   amount: Math.floor(Math.random() * 1000),
@@ -71,7 +72,7 @@ const Matrix = ({ numberOfRows, numberOfColumns, matrix }) => {
                 sumOfCellsInRow[Math.floor(index / numberOfColumns)]
               }
             />
-            <TotalSumInRow
+             <TotalSumInRow
               key={shortid.generate()}
               amount={sumOfCellsInRow[Math.floor(index / numberOfColumns)]}
             />
@@ -93,10 +94,10 @@ const Matrix = ({ numberOfRows, numberOfColumns, matrix }) => {
   );
 };
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = (state, props) => ({
   matrix: state.matrixReducer.matrix,
   numberOfColumns: state.matrixReducer.numberOfColumns,
-  numberOfRows: state.matrixReducer.numberOfRows,
+  numberOfRows: state.matrixReducer.numberOfRows
 });
 
 export default connect(mapStateToProps)(Matrix);
